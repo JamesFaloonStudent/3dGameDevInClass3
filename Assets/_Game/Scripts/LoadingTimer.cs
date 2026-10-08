@@ -10,9 +10,9 @@ public class LoadingTimer : MonoBehaviour
     public TextMeshProUGUI loadingText;
 
 
-    void Awake() 
+    void Awake()
     {
-        StartCoroutine(MyDelay(duration)); 
+        StartCoroutine(MyDelay(duration));
     }
 
 
@@ -36,8 +36,8 @@ public class LoadingTimer : MonoBehaviour
             UpdateText(elapsed);
         }
 
-        SceneManager.LoadScene("MenuScene"); 
-        
+        SceneManager.LoadScene("MenuScene");
+
     }
 
 }

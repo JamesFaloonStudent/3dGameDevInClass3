@@ -1418,6 +1418,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ch39_nonPBR
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 1b8fb47463a044343b609836d99f2db0, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 0eb216659c71d7343935d01f738f137b, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
